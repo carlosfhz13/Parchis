@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+#board {
+    margin: 20px auto;
+    width: 480px;         /* match your image’s size */
+    height: 480px;
+    position: relative;
+
+    background-image: url("images/500px-Parchís.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.square {
+    background: #dddddd00;
+    border: 1px solid #444;
+    position: relative;
+}
+
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
